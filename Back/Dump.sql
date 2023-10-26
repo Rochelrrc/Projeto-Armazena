@@ -1,9 +1,10 @@
-create database projetoarmazena;
+create database projeto_ipobre;
 
-create table estoque (
+create table lista_produtos (
 	id serial primary key,
   nome text not null,
-  tipo varchar(20),
-  quantidade integer not null,
-  valor integer not null
+  foto text,
+  categoria varchar(50) not null,
+  preco integer not null,
+  descricao text not null
 );
