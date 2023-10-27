@@ -1,11 +1,7 @@
-import './styles.css';
+import "./styles.css";
 
 function Main() {
-  return (
-    <div className="Main">
-      asdfasdf
-    </div>
-  );
+  return <div className="Main"></div>;
 }
 
 export default Main;
