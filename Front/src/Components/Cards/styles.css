@@ -1,0 +1,35 @@
+article {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+    width: 540px;
+    height: 110px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    padding: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div section {
+    display: flex;
+    flex-direction: column;
+}
+
+div p {
+    padding-top: 30px;
+}
+
+img {
+    width: auto;
+    height: 80%;
+    border-radius: 100%;
+}
