@@ -13,6 +13,14 @@ export const Categorias = [
   },
   {
     id: 4,
+    nome: "Combos",
+  },
+  {
+    id: 5,
+    nome: "Promoções",
+  },
+  {
+    id: 6,
     nome: "Diversos",
   },
 ];
