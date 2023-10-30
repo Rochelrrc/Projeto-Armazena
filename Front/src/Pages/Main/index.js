@@ -1,10 +1,10 @@
-// Main.js
 import React from "react";
 import Card from "../../Components/Cards";
 import { sanduiches } from "../../sanduiches";
 import Navbar from "../../Components/Navbar/index";
 import { Categorias } from "../../Categoria";
 import Logo from "../../Assets/comida.png";
+import Header from "../../Components/Header";
 import "./styles.css";
 
 function Main() {
@@ -19,6 +19,9 @@ function Main() {
 
   return (
     <div className="Main">
+      <div className="Header">
+        <Header />
+      </div>
       <nav className="menu-nav">
         <div className="restaurant-info">
           <img
@@ -43,17 +46,6 @@ function Main() {
           ))}
         </div>
       </nav>
-      <div className="Cards-main">
-        {sanduiches.map((sanduiche) => (
-          <Card
-            key={sanduiche.id}
-            nome={sanduiche.nome}
-            descricao={sanduiche.descricao}
-            preco={sanduiche.preco}
-            img={sanduiche.img}
-          />
-        ))}
-      </div>
     </div>
   );
 }

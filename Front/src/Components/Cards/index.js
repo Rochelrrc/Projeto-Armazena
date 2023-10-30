@@ -3,7 +3,7 @@ import "./styles.css";
 export default function Card({ id, nome, descricao, img, preco }) {
   return (
     <article>
-      <div>
+      <div className="card">
         <section>
           <h1>{nome}</h1>
           <span>{descricao}</span>

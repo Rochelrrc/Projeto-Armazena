@@ -13,22 +13,22 @@ article {
   padding: 10px;
 }
 
-div {
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-div section {
+.card section {
   display: flex;
   flex-direction: column;
 }
 
-div p {
+.card p {
   padding-top: 30px;
 }
 
-img {
+.card img {
   width: auto;
   height: 80%;
   border-radius: 100%;

@@ -1,8 +1,26 @@
-.menu-nav {
-  width: 20%;
+.Main {
+  display: flex;
   height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 255, 255);
+}
 
+.menu-nav {
+  width: 40rem;
+  height: 100%;
   background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.Cards-main {
+  height: 60rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .restaurant-info {
@@ -25,23 +43,4 @@
   color: aliceblue;
   padding: 0 10px;
   margin-bottom: 30px;
-}
-
-.Main {
-  max-height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-.Cards-main {
-  height: 60rem;
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 2rem;
 }
